@@ -1,0 +1,31 @@
+CREATE TABLE  `webb`.`tmember` (
+  `memberId` int(10) unsigned NOT NULL auto_increment,
+  `userId` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `name` varchar(20) NOT NULL,
+  `birthdate` datetime NOT NULL,
+  PRIMARY KEY  (`memberId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE  `webb`.`product` (
+  `productId` int(10) unsigned NOT NULL auto_increment,
+  `title` varchar(20) NOT NULL,
+  `maker` varchar(30) NOT NULL,
+  `price` int(10) unsigned NOT NULL,
+  `productImage` varchar(45) NOT NULL,
+  `accesscount` int(10) unsigned NOT NULL default '1',
+  `producttype` varchar(10) NOT NULL,
+  `detail` varchar(300) NOT NULL,
+  PRIMARY KEY  (`productId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE  `webb`.`buy` (
+  `buyId` int(10) unsigned NOT NULL auto_increment,
+  `userId` varchar(10) NOT NULL,
+  `productId` int(10) unsigned NOT NULL,
+  `amount` int(10) unsigned NOT NULL,
+  `payment` int(10) unsigned NOT NULL,
+  `buyDate` datetime NOT NULL,
+  `choice` varchar(20) NOT NULL,
+  PRIMARY KEY  USING BTREE (`buyId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

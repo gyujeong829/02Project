@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>로그인화면</title>
+<link href="second.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Mr+Dafoe|Sacramento|Tangerine" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Yeon+Sung" rel="stylesheet">
+<link href="third.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="page_background">
+  <div id="login_spot">
+    <div id="login_form">
+    	<a href="loginForm.html"><img src="images/login_1.png" width="43" height="21" /></a>
+    	<a href="signInForm.html"><img src="images/login_2.png" width="61" height="21" /></a>
+    	<a href="#"><img src="images/login_3.png" width="49" height="21" /></a>
+    </div>
+  </div>
+  <div id="main_name" style="font-family: 'Tangerine', cursive; font-family: 'Mr Dafoe', cursive; font-family: Sacramento, cursive; font-size: 90px; text-align: center;">Happiness</div>
+  <div id="page_menu" style="font-family: 'Yeon Sung', cursive;">
+  	<ul style="list-style-type: none; font-family: 'Yeon Sung', cursive; font-size: 18px;">
+	<li style="display:inline">다이어리</li>
+	<li style="display:inline"> 노트/필기 메모지</li>
+	<li style="display:inline">파우치/케이스</li>
+	</ul>
+    <div id="gongbaeg">
+      <div id="login___line"></div>
+    </div>
+    <div id="login__form">
+      <table width="700" border="1" align="center" cellpadding="3" cellspacing="0">
+        <tr>
+          <th scope="col"><p><strong>Happiness 회원 로그인 </strong></p>
+            <form id="form1" name="form1" method="post" action="login.jsp">
+              <p>
+                <label for="userId">아이디 : </label>
+                <input type="text" name="userId" id="userId" /></p>
+              <p>비밀번호 :
+                <input type="password" name="password" id="password" />
+              </p>
+              <p>
+                <input type="submit" name="login" id="login" value="로그인" />
+              </p>
+              <p>&nbsp;</p>
+            </form>
+            <form id="form2" name="form2" method="post" action="signInForm.html">
+              <p>* 아직 회원가입을 하지 않으셨나요? 
+                <input type="submit" name="user" id="user" value="회원가입"/>
+              </p>
+            </form>
+           </th>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+@charset "utf-8";
+#gongbaeg {
+	height: 40px;
+	width: 1500px;
+}
+#login__form {
+	height: 300px;
+	width: 1500px;
+	font-size: 18px;
+}

@@ -1,0 +1,74 @@
+@charset "utf-8";
+#body {
+	background-color: #f5f6f7;
+    margin: 0;
+}
+div.container {
+	margin: 0 auto 0;
+    width: 600px;
+}
+p.title {
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: -6px;
+	color: #000000;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.form-area table {
+	background-color: #FFF;
+   	border: 1px solid #dadada;
+	margin-bottom: 15px;
+	border-collapse: collapse;
+	width: 100%;
+}
+.form-area table:last-child {
+	margin-bottom: 0;
+}
+.form-area table tr td {
+	border-bottom: 1px solid #f0f0f0;
+   	padding: 5px 10px;
+}
+.form-area table tr:last-child td {
+	border-bottom: 1px solid #dadada;
+}
+.input-text {
+	border: none;
+	height: 30px;
+	padding: 2px 0px;
+	width: 100%;
+	font-size: 14px;
+}
+.input-text.birth {
+	width: 180px;
+}
+.form-area table tr td select {
+	width: 180px;
+	border: none;
+	height: 30px;
+	padding: 2px 0px;
+	font-size: 14px;
+}
+.form-area table tr td .alert {
+	color: #ef0003;
+	font-size: 12px;
+	margin: 5px 0;
+	display: none;
+}
+.button-area {
+	text-align: center;
+	padding: 10px 0;
+}
+.btn-type-01 {
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	letter-spacing: -1px;
+	font-weight: bold;
+	height: 60px;
+	line-height: 55px;
+	text-decoration: none;
+	border-radius: 0;
+	background-color: #000000;
+	color: #FFF;
+}

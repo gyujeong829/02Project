@@ -1,0 +1,14 @@
+@charset "utf-8";
+#register {
+	height: 500px;
+	width: 1500px;
+	text-align: center;
+	font-size: 24px;
+}
+#register p {
+	font-size: 24px;
+	font-weight: bold;
+}
+#register table tr th {
+
+}
